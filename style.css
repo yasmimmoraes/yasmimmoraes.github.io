@@ -91,13 +91,13 @@ h4{
     font-size: 40px;
 }
 
-.newslatter form{
+.newsletter form{
     width: 380px;
     max-width: 100%;
     position: relative;
 }
 
-.newslatter form input:first-child{
+.newsletter form input:first-child{
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
@@ -106,7 +106,7 @@ h4{
     border-radius: 30px;
 }
 
-.newslatter form input:last-child{
+.newsletter form input:last-child{
     position: absolute;
     display: inline-block;
     outline: none;
