@@ -14,6 +14,7 @@
     background-size: cover;
     background-position: center;
 }
+
 .divider{
     width: 90px;
     border-style: dotted;
@@ -82,7 +83,6 @@ nav ul li a:hover{
 .btn:hover{
     transform: scale(1.2);
 }
-
 .btn2{
     height: 70px;
     background-color: #fb9cb2;
@@ -237,7 +237,7 @@ button:hover{
     background: #fdc9d4;
     width: 100%;
     height: 2000px;
-    padding: 100px 0px;
+    padding: 70px 0px;
 }
 
 .pfp {
@@ -248,7 +248,7 @@ button:hover{
     left: 100px;
     border-style: solid;
     border-width: 5px;
-    border-color: #f2abbb;
+    border-color: #f3a3b5;
     align-self: center;
 }
 
@@ -258,6 +258,8 @@ button:hover{
     width: 1130px;
     margin: 30px auto;
     text-align: center;
+    filter: drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.252));
+    
 }
 
 .box{
@@ -269,7 +271,7 @@ button:hover{
 
 .cardhl{
     z-index: 2;
-    background-color: #0000002f;
+    background-color: #ffffff7c;
     height: 95px;
     width: 350px;
     border-radius: 20px 20px 0 0;
@@ -284,6 +286,7 @@ button:hover{
     left:10px;
     border-radius: 20%;
     padding:3px;
+    filter:drop-shadow(2px 2px 0 black)
 }
 
 .card{
@@ -291,11 +294,12 @@ button:hover{
     height: 400px;
     width: 350px;
     padding: 0;
-    background: #df778e5d;
+    background: #f3a3b5;
     border-radius: 20px;
     margin: 15px;
     position: relative;
     overflow: hidden;
+    filter:drop-shadow(3px 2px 0px rgba(0, 0, 0, 0.326))
 }
 
 .card i{
@@ -311,14 +315,43 @@ h5{
     font-size: 23px;
     margin-bottom: 15px;
 }
-
+.pra {
+    position:absolute;
+    top:200px;
+    width:350px;
+    height:200px;
+}
+.box2{
+    position:relative;
+    top:-15px;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.box2 div{
+    z-index: 2;
+    /*background-color: #e6e6e66e;*/
+    height: 30px;
+    position: relative;
+    top: 0px;
+    padding: 3px;
+    filter: drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.252));
+}
+.box2 div img{
+    height:25px;
+}
 .pra p {
     color: white;
     font-size: 16px;
     line-height: 27px;
-    position:absolute;
+    position:relative;
+    align-self: center;
     text-align: center;
-    top: 250px;
+    top:0px;
+    max-width:350px;
+    filter:drop-shadow(1px 1px 0 rgb(0, 0, 0, 0.5));
 }
 
 .pra h4 {
@@ -327,8 +360,9 @@ h5{
     letter-spacing: 2px;
     font-size: 25px;
     position:relative;
-    top: 85px;
+    top: -20px;
     text-align:center;
+    filter:drop-shadow(1px 1px 0 rgb(0, 0, 0, 0.5));
 }
 .cargo {
     color:#ffffff;
@@ -336,14 +370,6 @@ h5{
     top:50px;
     left:195px;
 }
-
-.pra img {
-    height: 20px;
-    position:absolute;
-    top: 45px;
-    left:170px;
-}
-
 .card .button{
     background-color: #D0B4BB;
     color: white;
