@@ -16,19 +16,29 @@
 }
 
 nav{
+    z-index: 500;
+    position:fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 8%;
     padding-right: 8%;
+    background-color:#27272770;
+    width: 100%;
+    backdrop-filter: blur(6px);
 }
-
+.icon {
+    height: 50px;
+}
 .logo{
-    color: white;
+    color: #fb9cb2;
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
+    position:absolute;
+    top:20px;
 }
 
 span{
@@ -38,7 +48,7 @@ span{
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 5px 25px;
 }
 
 nav ul li a{
@@ -66,6 +76,22 @@ nav ul li a:hover{
     transform: scale(1.2);
 }
 
+.box .btn2{
+    height: 70px;
+    background-color: #fb9cb2;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn2:hover{
+    transform: scale(1.2);
+}
+
 .content{
     position: absolute;
     top: 50%;
@@ -86,7 +112,7 @@ h3{
 }
 
 h4{
-    color: #FB9CB2;
+    color: #ffffff;
     letter-spacing: 2px;
     font-size: 40px;
 }
@@ -185,10 +211,19 @@ button:hover{
     transform: scale(1.2);
 }
 
-.services{
-    background: #caa4ae;
+.staff{
+    background: #df778d;
     width: 100%;
+    height: 100vh;
     padding: 100px 0px;
+}
+
+.pfp {
+    border-radius: 50%;
+    height: 150px;
+    position:absolute;
+    top:20px;
+    left:10px;
 }
 
 .title h2{
@@ -203,19 +238,18 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
+    min-height: 210px;
 }
 
 .card{
-    height: 365px;
-    width: 335px;
-    padding: 20px 35px;
-    background: #FB9CB2;
+    height: 190px;
+    width: 500px;
+    padding: 3px;
+    background: #fb9cb2;
     border-radius: 20px;
     margin: 15px;
     position: relative;
     overflow: hidden;
-    text-align: center;
 }
 
 .card i{
@@ -236,7 +270,31 @@ h5{
     color: white;
     font-size: 16px;
     line-height: 27px;
-    margin-bottom: 25px;
+    position:absolute;
+    top: 70px;
+    left:170px;
+}
+
+.pra h4 {
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 25px;
+    position:absolute;
+    top:13px;
+    left:170px;
+}
+.cargo {
+    color:#ffffff;
+    position:absolute;
+    top:50px;
+    left:195px;
+}
+.pra img {
+    height: 20px;
+    position:absolute;
+    top: 45px;
+    left:170px;
 }
 
 .card .button{
@@ -260,7 +318,7 @@ h5{
 .contact-me{
     width: 100%;
     height: 290px;
-    background: #D0B4BB;
+    background-color:#ffbccb;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -293,10 +351,13 @@ h5{
 }
 
 footer{
+    background: #350d00;
+    background-position: top;
+    background-repeat: repeat-x;
+    background-image: url(img/footer__bg-desktop.svg);
     position: relative;
     width: 100%;
-    height: 400px;
-    background: #caa4ae;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -305,21 +366,27 @@ footer{
 
 footer p:nth-child(1){
     font-size: 30px;
-    color: white;
+    color: #350d00;
     margin-bottom: 20px;
     font-weight: bold;
+    position:absolute;
+    top:5px;
 }
 
 footer p:nth-child(2){
-    color: white;
+    color: #350d00;
     font-size: 17px;
     width: 500px;
     text-align: center;
     line-height: 26px;
+    position:absolute;
+    top:55px;
 }
 
 .social{
     display: flex;
+    position:absolute;
+    bottom: 27px;
 }
 
 .social a{
@@ -330,10 +397,12 @@ footer p:nth-child(2){
     justify-content: center;
     background: #FB9CB2;
     border-radius: 50%;
-    margin: 22px 10px;
+    margin: 2px 10px;
     color: white;
     text-decoration: none;
     font-size: 20px;
+    position:relative;
+    bottom:40px;
 }
 
 .social a:hover{
@@ -343,7 +412,9 @@ footer p:nth-child(2){
 
 .end{
     position: absolute;
-    color: #000;
-    bottom: 35px;
-    font-size: 14px;
+    bottom: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #350d00;
+    text-align: center;
+    font-size: 12px;
 }
