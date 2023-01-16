@@ -15,7 +15,7 @@
 - [Game](#-Sobre-o-jogo)
 - [Free Company](#-Sobre-a-FC)
 - [Ferramentas](#-Ferramentas-utilizadas)
-- [Contribuir](#-Como-contribuir?)
+- [Contribuir](#-Como-contribuir)
 
 <h2>💻 Demonstração</h2>
 <img src="img/mooncakery.com.br_index.html.png"/>
@@ -37,7 +37,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - [HTML](https://www.learn-html.org)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-<h2>🚀 Como contribuir?</h2>
+<h2>🚀 Como contribuir</h2>
 
 Toda ajuda é bem vinda para erguermos a padoca da Moon 🧁 (OBSS: Não pensei direito no que botar aqui ainda)
 
